@@ -1,0 +1,22 @@
+.aboutme-section {
+    background-image: url('../../assets/images/Gift/giftmain1.png'),
+     linear-gradient( rgb(189, 149, 98) , rgb(209, 174, 122));
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 300px !important;
+   
+}
+.aboutme-section .me {
+    bottom: 0;
+    color: black;
+    width: 100%;
+    min-height: 500px !important;
+    margin-bottom: 70px !important;
+}
+
+@media (max-width:660px){
+    .aboutme-section{
+        height: 650px !important;
+    }
+}
